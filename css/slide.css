@@ -1,0 +1,32 @@
+body {
+    background: #000;
+    font-family: Arial;
+    margin: 0;
+}
+
+/*.image {
+    position: relative;
+    text-align: center;
+}*/
+
+#slide {
+    /*width: 99%;*/
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+ 
+p {
+    position: absolute;
+    top: 965px;
+    left: 380px;
+    width: 60%;
+    color: #fff;
+    line-height: 60px;
+    opacity: 0.8;
+    background: #000;
+    text-align: center;
+    font-size: 37px;
+    font-style: italic;
+}
